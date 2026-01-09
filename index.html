@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nexora Interiors</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="navbar">
+  <h1 class="logo">NEXORA <span>INTERIORS</span></h1>
+  <nav>
+    <a href="#" onclick="showPage('home')">Home</a>
+    <a href="#" onclick="showPage('about')">About</a>
+    <a href="#" onclick="showPage('services')">Services</a>
+    <a href="#" onclick="showPage('contact')">Contact</a>
+  </nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="page hero">
+  <div class="hero-content">
+    <h2>Homes Designed For Tomorrow</h2>
+    <p>Premium interior solutions for modern living</p>
+    <button class="btn" onclick="showPage('contact')">Get Free Quote</button>
+  </div>
+</section>
+
+<!-- ABOUT -->
+
+    <section id="about" class="page section about-section hidden">
+
+  <h2>We Design More Than Spaces</h2>
+  <p>
+    Nexora Interiors creates inspiring environments that blend creativity,
+    functionality, and precision to reflect your lifestyle.
+  </p>
+
+  <div class="services-grid">
+    <div class="service-card"><strong>Tailored Design Solutions</strong><br>Personalized designs</div>
+    <div class="service-card"><strong>End-to-End Execution</strong><br>Design to delivery</div>
+    <div class="service-card"><strong>Aesthetics with Purpose</strong><br>Beauty + function</div>
+    <div class="service-card"><strong>Premium Craftsmanship</strong><br>Quality materials</div>
+    <div class="service-card"><strong>On-Time Delivery</strong><br>Clear timelines</div>
+    <div class="service-card"><strong>Client-First Approach</strong><br>Trust-driven work</div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="page section light hidden">
+  <h2>Complete Interior Solutions</h2>
+
+  <div class="services-grid">
+    <div class="service-card"><img src="images/kitchen.jpg"><p>Modular Kitchen</p></div>
+    <div class="service-card"><img src="images/dining.jpg" alt="Dining Area Design"><p>Dining Area</p></div>
+
+    <div class="service-card"><img src="images/wardrobe.jpg"><p>Storage & Wardrobe</p></div>
+    <div class="service-card"><img src="images/ceiling.jpg"><p>False Ceiling</p></div>
+    <div class="service-card"><img src="images/lighting.jpg"><p>Lighting</p></div>
+    <div class="service-card"><img src="images/flooring.jpg"><p>Flooring</p></div>
+
+    <div class="service-card"><img src="images/tv-unit.jpg" alt="TV Unit"><p>TV Units</p></div>
+    <div class="service-card"><img src="images/study-unit.jpg" alt="Study Table"><p>Study Tables</p></div>
+    <div class="service-card"><img src="images/wall-paint.jpg" alt="Wall Painting"><p>Wallpaints</p></div>
+    <div class="service-card"><img src="images/balcony-decor.jpg" alt="Balcony Decor"><p>Balcony Decor</p></div>
+
+    <div class="service-card"> <img src="images/home-decor.jpg" alt="Home Decor"><p>Home Decors</p></div>
+    <div class="service-card"><img src="images/bathroom.jpg" alt="Bathroom Design"><p>Bathroom Design</p></div>
+    <div class="service-card"><img src="images/pooja-unit.jpg" alt="Pooja Unit"><p>Pooja Unit</p></div>
+    <div class="service-card"><img src="images/kids-bedroom.jpg" alt="Kids Bedroom"><p>Kids Bedroom</p></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="page section contact hidden">
+  <h2>Get Free Consultation</h2>
+
+  <form class="contact-form" id="contactForm">
+
+    <input type="text" placeholder="Full Name" required>
+
+    <input type="email"  placeholder="Email Address" required>
+
+    <input type="tel" id="phone" placeholder="Contact Number" required maxlength="10">
+   <textarea placeholder="Tell us about your requirement"></textarea>
+<button type="submit">Submit</button>
+
+    <!-- Success message -->
+    <p id="successMessage"  style="display:none; color:green; margin-top:15px; font-weight:500;" >
+      ✅ Form submitted successfully. We will contact you soon.
+    </p>
+
+  </form>
+ <p class="mail">contact@nexorainteriors.com</p>
+</section>
+
+<footer>
+  © 2026 Nexora Interiors. All Rights Reserved.
+</footer>
+
+
+<script src="Js.js"></script>
+</body>
+</html>
